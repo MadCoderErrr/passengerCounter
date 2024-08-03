@@ -17,3 +17,7 @@ function save() {
     count = 0
     countEl.textContent = 0
 }
+
+window.increment = increment
+window.save = save
+window.reset = reset
